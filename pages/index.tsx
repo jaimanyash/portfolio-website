@@ -1,86 +1,75 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import React from "react";
+import Layout from "../sections/Layout";
+import { FaReact, FaHtml5, FaCss3, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss } from "react-icons/si";
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
+    <Layout>
+      {/* Hero Section  */}
+      <section className="text-gray-600">
+        <div className="container mx-auto flex px-2 py-16 md:flex-row flex-col items-center">
+          <div className="md:w-1/2 flex flex-col md:items-start mb-16 md:mb-0 items-center text-center">
+            <h2 className="text-gray-600 text-3xl w-[740px] text-left leading-normal sm:text-4xl font-bold dark:text-gray-200">
+              Hi 👋 , I am{" "}
+            </h2>
+            <br></br>
+            <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-slate-100 text-3xl w-[740px] text-left leading-normal sm:text-5xl font-bold   dark:from-cyan-400 dark:to-indigo-200 ">
+              Yash Jaiman
+            </h2>
+            <br></br>
+            <p className="text-lg sm:text-md text-left text-gray-500 dark:text-gray-200">
+              💡 A student, developer and most importantly, <b>a learner.</b>
+              </p>
+              <br/>
+              <p className="text-lg sm:text-md text-left text-gray-500 dark:text-gray-200">
+              Currently developing sites using React
+              and learning new technologies in my free time. New to
+              Next.js, Tailwindcss and Figma.
+              </p><br />
+              <p className="text-lg sm:text-md text-left text-gray-500 dark:text-gray-200">Welcome to my digital garden, where I share what I'm learning
+              about shipping great products, becoming a better developer and
+              growing a career in tech.
             </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
+            <br />
+            <br></br>
+            <p className="text-lg sm:text-md text-left text-gray-500 dark:text-gray-200">
+              <b>👨‍💻 Tech Stack: </b>
             </p>
-          </a>
+            <br />
+            <ul className="flex">
+              <li className="mr-6">
+                <FaHtml5 className="w-10 h-10 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-500" />
+              </li>
+              <li className="mr-6">
+                <FaCss3 className="w-10 h-10 dark:text-gray-200 hover:text-sky-500 dark:hover:text-sky-500" />
+              </li>
+              <li className="mr-6">
+                <SiJavascript className="w-10 h-10 dark:text-gray-200 hover:text-yellow-500 dark:hover:text-yellow-500" />
+              </li>
+              <li className="mr-6">
+                <FaReact className="w-10 h-10 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-500" />
+              </li>
+              <li className="mr-6">
+                <FaNodeJs className="w-10 h-10 dark:text-gray-200 hover:text-green-500 dark:hover:text-green-500" />
+              </li>
+              <li className="mr-6">
+                <SiTailwindcss className="w-10 h-10 dark:text-gray-200 hover:text-sky-500 dark:hover:text-sky-500" />
+              </li>
+            </ul>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div className="flex flex-wrap justify-center">
+            <div className="w-8/12 sm:w-8/12 px-4">
+              <img
+                src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-4-470x470.png"
+                alt="..."
+                className="shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+              />
+            </div>
+          </div>
         </div>
-      </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
-    </div>
-  )
+      </section>
+    </Layout>
+  );
 }
-
-export default Home
