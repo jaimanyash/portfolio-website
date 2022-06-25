@@ -3,9 +3,8 @@ import Link from "next/Link";
 
 const Logo = () => {
   return (
-    <>
-      <div className="sticky py-2 md:py-9 md:mb-0">
-        <div className="container px-60 mx-auto lg:max-w-4xl flex items-center justify-between"></div>
+      <div className="py-2 md:py-9 md:mb-0">
+        <div className="container px-2 mx-auto mr-10 lg:max-w-4xl flex items-baseline justify-between">
         <Link href="/">
           <a
             className={
@@ -15,11 +14,10 @@ const Logo = () => {
             YASH J.{" "}
           </a>
         </Link>
-      </div>
       <ul className="flex">
         <li className="mr-6">
           <Link href="/">
-            <a className="my-16 flex items-center space-x-1 ">
+            <a className="  my-16  flex items-center space-x-1 ">
               <span className="  text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap hover:text-cyan-500">
                 Home
               </span>
@@ -50,14 +48,15 @@ const Logo = () => {
         <li className="mr-6">
           <Link href="/">
             <a className="my-16 flex items-center space-x-1">
-              <span className=" text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap hover:text-cyan-500">
+              <span className=" text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap ">
                 Blog
               </span>
             </a>
           </Link>
         </li>
       </ul>
-    </>
+    </div>
+    </div>
   );
 };
 
