@@ -59,7 +59,7 @@ const Hero = () => {
           </li>
         </ul>
       </div>
-      <div class="flex-row items-center my-10 ml-24  ">
+      <div className="flex-row items-center my-10 ml-24  ">
         <Image
           src={profile}
           className="rounded-full shadow-lg hover:shadow-cyan-400 "
