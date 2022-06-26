@@ -20,13 +20,13 @@ const Header = () => {
 
       if(currentTheme ==="dark"){
         return (
-          <SunIcon className="w-9 h-9 text-yellow-500 hover:text-cyan-500 " role="button" onClick={() => setTheme('light')} />
+          <SunIcon className="w-8 h-8 text-yellow-500 hover:text-cyan-500 " role="button" onClick={() => setTheme('light')} />
         )
       }
 
       else {
         return (
-          <MoonIcon className="w-9 h-9 text-gray-900 hover:text-cyan-500 " role="button" onClick={() => setTheme('dark')} />
+          <MoonIcon className="w-8 h-8 text-gray-700 hover:text-cyan-500 " role="button" onClick={() => setTheme('dark')} />
         )
       }
    };
