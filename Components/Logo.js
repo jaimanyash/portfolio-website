@@ -3,8 +3,8 @@ import Link from "next/Link";
 
 const Logo = () => {
   return (
-      <div className="py-2 md:py-9 md:mb-0">
-        <div className="container px-2 mx-auto mr-10 lg:max-w-4xl flex items-baseline justify-between">
+      
+        <div className="container px-2 mx-auto mr-10 flex items-baseline justify-between">
         <Link href="/">
           <a
             className={
@@ -20,16 +20,6 @@ const Logo = () => {
             <a className="  my-16  flex items-center space-x-1 ">
               <span className="  text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap hover:text-cyan-500">
                 Home
-              </span>
-            </a>
-          </Link>
-        </li>
-
-        <li className="mr-6">
-          <Link href="/">
-            <a className="my-16 flex items-center space-x-1">
-              <span className=" text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap hover:text-cyan-500">
-                About
               </span>
             </a>
           </Link>
@@ -56,7 +46,7 @@ const Logo = () => {
         </li>
       </ul>
     </div>
-    </div>
+ 
   );
 };
 
