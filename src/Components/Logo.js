@@ -15,9 +15,9 @@ const Logo = () => {
           </a>
         </Link>
       <ul className="flex">
-        <li className="mr-6">
+        <li className="mr-5">
           <Link href="/">
-            <a className="  my-16  flex items-center space-x-1 ">
+            <a className=" my-16  flex items-center space-x-1 ">
               <span className="  text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap hover:text-cyan-500">
                 Home
               </span>
@@ -25,7 +25,7 @@ const Logo = () => {
           </Link>
         </li>
 
-        <li className="mr-6">
+        <li className="mr-5">
           <Link href="/">
             <a className="my-16 flex items-center space-x-1">
               <span className=" text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap hover:text-cyan-500">
@@ -35,7 +35,7 @@ const Logo = () => {
           </Link>
         </li>
 
-        <li className="mr-6">
+        <li className="mr-0">
           <Link href="/">
             <a className="my-16 flex items-center space-x-1">
               <span className=" text-gray-700 dark:text-gray-200 font-normal text-xl tracking-tight whitespace-nowrap ">

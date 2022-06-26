@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "Components/Spinner.js", "Components/CustomLink.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/Components/Spinner.js", "src/Components/CustomLink.js"],
   "exclude": ["node_modules"]
 }

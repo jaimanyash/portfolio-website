@@ -10,8 +10,8 @@ const Hero = () => {
   return (
     <div className="flex flex-row w-11/12 px-6 mr-10 justify-between md:items-start mb-16 md:mb-0 items-center text-center">
       <div className="flex flex-col">
-        <h1 className=" text-gray-600 text-3xl xs:text-left leading-normal xs:text-4xl font-bold dark:text-gray-200">
-          Hi 👋 , I am{" "}
+        <h1 className=" text-gray-600 text-3xl text-left leading-normal xs:text-4xl font-bold dark:text-gray-200">
+          Hi 👋 , I am
         </h1>
         <br></br>
         <h1 className="flex flex-col bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-purple-400 text-5xl  text-left leading-normal font-bold   dark:from-cyan-400 dark:to-indigo-200 ">

@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../Sections/Layout"
-import Hero from "../Sections/Hero"
-import About from "../Sections/About"
+import Layout from "../src/Sections/Layout"
+import Hero from "../src/Sections/Hero"
+import About from "../src/Sections/About"
 
 export default function Home() {
   return (
