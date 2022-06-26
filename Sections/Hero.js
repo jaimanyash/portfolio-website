@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaReact, FaHtml5, FaCss3, FaNodeJs } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import Image from "next/image";

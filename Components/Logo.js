@@ -1,4 +1,4 @@
-import { CodeIcon } from "@heroicons/react/outline";
+import React from 'react';
 import Link from "next/Link";
 
 const Logo = () => {
