@@ -8,7 +8,7 @@ const Hero = () => {
       <section className="text-gray-600 dark:text-gray-100 body-font">
         <div className="container  px-5 pb-8 mx-auto">
           <div className="p-5 flex items-center mx-auto  mb-10 border-gray-300 rounded-lg sm:flex-row flex-col">
-            <div class="w-2/6 h-2/6 mr-10 inline-flex items-center justify-center flex-shrink-0">
+            <div class="w-2/6 h-2/6 md:mr-10 inline-flex items-center justify-center flex-shrink-0">
               <FaCode className="w-full h-full" />
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
