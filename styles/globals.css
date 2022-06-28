@@ -20,15 +20,15 @@
 }
 
 @font-face {
-  font-family: 'MyFont';
+  font-family: 'myfont';
   font-style: normal;
   font-weight: 100;
-  src: local(''), url('../public/static/fonts/OpenSans-Regular.woff') format('woff');
+  src: local(''), url('/fonts/OpenSans-Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'MyFont';
+  font-family: 'myfont';
   font-style: semibold;
   font-weight: 400;
-  src: local(''), url('../public/static/fonts/OpenSans-SemiBold.woff') format('woff');
+  src: local(''), url('/fonts/OpenSans-SemiBold.woff') format('woff');
 }

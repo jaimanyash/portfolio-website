@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        myfont: ['MyFont'],
-        sans: ['MyFont', 'sans-serif'],
+        myfont: ['myfont'],
+        sans: ['myfont', 'sans-serif'],
       }
     },
   },
@@ -22,7 +22,5 @@ module.exports = {
     },
   },
   plugins: [],
-  corePlugins: {
-    fontFamily: true,
-  },
+  
 }
