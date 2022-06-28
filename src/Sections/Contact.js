@@ -34,17 +34,17 @@ export default function Stack() {
             />
           </a>
         )}
-        {contact.dribbble && (
+        {contact.twitter && (
           <a
-            href={`https://dribbble.com/${contact.dribbble}`}
+            href={`https://twitter.com/${contact.twitter}`}
             target="_blank"
             rel="noreferrer"
           >
             <Image
-              src="/static/icons/dribbble.svg"
+              src="/static/icons/twitter.svg"
               width={20}
               height={20}
-              alt="Dribbble icon"
+              alt="Twitter icon"
             />
           </a>
         )}

@@ -21,5 +21,6 @@
     title: 'Contact Me',
     email: 'jaimanyashwork@gmail.com',
     github: 'jaimanyash',
-    linkedin: 'yash-jaiman'
+    linkedin: 'yash-jaiman',
+    twitter:'jaimannnn'
   };

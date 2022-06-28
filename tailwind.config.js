@@ -9,10 +9,20 @@ module.exports = {
   ],
   darkMode: "class", 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        myfont: ['MyFont'],
+        sans: ['MyFont', 'sans-serif'],
+      }
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      fontFamily: ['hover', 'focus'],
+    },
   },
   plugins: [],
+  corePlugins: {
+    fontFamily: true,
+  },
 }

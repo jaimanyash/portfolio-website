@@ -3,15 +3,16 @@ import { projects } from "../data/config"
 
 export default function Projects() {
   return (
+    <section id="projects">
     <div className="container px-5 pb-24 mx-auto">
        <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div> 
-      <div className="overflow-x-hidden w-9/12">
-        <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-purple-400 dark:from-cyan-400 dark:to-indigo-200 text-3xl title-font font-bold mb-4">
+      <div className="overflow-x-hidden w-9/12 font-myfont font-bold ">
+        <h2 className="text-3xl font-bold mb-4">
           {projects.title}
         </h2>
       </div>
-      <p className="text-lg">{projects.desc}</p>
-      <div className=" mt-8">
+      <p className="font-myfont text-base">{projects.desc}</p>
+      <div className="font-myfont font-bold mt-8">
         {projects.projects.map((item, index) => {
           return (
             <div
@@ -63,5 +64,6 @@ export default function Projects() {
         })}
       </div>
     </div>
-  );
+    </section>
+     );
 }
