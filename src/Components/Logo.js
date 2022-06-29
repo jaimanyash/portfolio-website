@@ -4,7 +4,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 
 const Logo = () => {
   return (
-    <div className="container px-5 justify-between font-myfont font-bold">
+    <div className="container justify-between font-sans font-medium">
       <ul className="flex flex-row">
         <li className="mr-5">
           <Link href="/">
@@ -29,7 +29,7 @@ const Logo = () => {
         <li className="mr-0">
           <Link href="/">
             <a className="my-16 flex items-center space-x-1">
-              <span className=" text-gray-700 dark:text-gray-200 text-lg tracking-tight whitespace-nowrap ">
+              <span className=" text-gray-700 dark:text-gray-200 text-lg tracking-tight whitespace-nowrap hover:text-cyan-500 ">
                 Contact
               </span>
             </a>

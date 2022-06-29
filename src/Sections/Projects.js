@@ -6,13 +6,13 @@ export default function Projects() {
     <section id="projects">
     <div className="container px-5 pb-24 mx-auto">
        <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div> 
-      <div className="overflow-x-hidden w-9/12 font-myfont font-bold ">
+      <div className="overflow-x-hidden w-9/12 font-sans font-bold ">
         <h2 className="text-3xl font-bold mb-4">
           {projects.title}
         </h2>
       </div>
-      <p className="font-myfont text-base">{projects.desc}</p>
-      <div className="font-myfont font-bold mt-8">
+      <p className="font-sans text-base">{projects.desc}</p>
+      <div className="font-sans font-medium mt-8">
         {projects.projects.map((item, index) => {
           return (
             <div

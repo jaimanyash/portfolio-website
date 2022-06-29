@@ -5,15 +5,15 @@ import { SiJavascript, SiTailwindcss } from "react-icons/si";
 const Hero = () => {
   return (
     <section>
-      <section className="text-gray-600 dark:text-gray-100 font-myfont">
+      <section className="text-gray-600 dark:text-gray-100 ">
         <div className="container  px-5 pb-8 mx-auto">
           <div className="p-5 flex items-center mx-auto  mb-10 border-gray-300 rounded-lg sm:flex-row flex-col">
-            <div class="w-2/6 h-2/6 md:mr-10 inline-flex items-center justify-center flex-shrink-0">
-              <FaCode className="w-full h-full transition duration-500 hover:scale-125 " />
+            <div class="w-2/6 h-2/6 md:mr-10 inline-flex items-center justify-center flex-shrink-0 transition duration-500 hover:scale-125">
+              <FaCode className="w-full h-full hover:text-cyan-400  " />
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h1 className="text-3xl mb-2 transition duration-500 hover:scale-110  ">
-                Hello, I'm Yash 👋
+              <h1 className="text-3xl mb-6 transition duration-500 hover:scale-110  ">
+                Hello, I'm <b>Yash 👋</b>
                 </h1>
               <p className="transition duration-500 hover:scale-110 text-base text-left text-gray-500 dark:text-gray-200">
                 I'm a student, developer and most importantly, <b>a learner 📚 </b>

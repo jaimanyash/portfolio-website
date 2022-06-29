@@ -18,18 +18,4 @@
     @apply inline-block px-5 py-3 rounded-lg hover:bg-slate-400 transition duration-300 shadow-lg bg-cyan-400 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-cyan-400 focus:ring-opacity-50 whitespace-nowrap
   }
 
-
-@font-face {
-  font-family: 'myfont';
-  font-style: normal;
-  font-weight: 100;
-  src: local(''), url('/fonts/OpenSans-Regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'myfont';
-  font-style: semibold;
-  font-weight: 400;
-  src: local(''), url('/fonts/OpenSans-SemiBold.woff') format('woff');
-}
 }

@@ -10,16 +10,11 @@ module.exports = {
   darkMode: "class", 
   theme: {
     extend: {
-      fontFamily: {
-        myfont: ['myfont'],
-        sans: ['myfont', 'sans-serif'],
-      }
     },
   },
   variants: {
     extend: {
-      fontFamily: ['hover', 'focus'],
-    },
+       },
   },
   plugins: [],
   
