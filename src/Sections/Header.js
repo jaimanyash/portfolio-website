@@ -1,8 +1,9 @@
 import React from 'react';
-import Logo from "../Components/Logo";
+import Logo from "../Components/NavBar";
 import {useTheme} from "next-themes";
 import{BsSun, BsMoon} from "react-icons/bs";
 import {useState, useEffect} from "react";
+import NavBar from '../Components/NavBar';
 
 const Header = () => {
 
@@ -36,10 +37,10 @@ const Header = () => {
    };
 
   return (
-    <header className="h-15 dark:border-gray-700">
-      <div className="px-6 py-4 flex justify-between items-center">
+    <header>
+      <div className="lg:px-7 md:px-20 sm:px-10 flex flex-row justify-between items-center">
         {/* Logo */}
-        <Logo />
+        <NavBar />
         
         {renderThemeChanger()}
       </div>

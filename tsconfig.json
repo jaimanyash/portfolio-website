@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/Components/Spinner.js", "src/Components/CustomLink.js", "pages/_app.js", "pages/index.js", "src/Sections/Projects.js", "src/Components/Logo.js", "src/Components/Logo.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/Components/Spinner.js", "src/Components/CustomLink.js", "pages/_app.js", "pages/index.js", "src/Sections/Projects.js", "src/Components/NavBar.js", "src/Components/NavBar.js"],
   "exclude": ["node_modules"]
 }

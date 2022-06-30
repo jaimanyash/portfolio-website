@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@notionhq/client": "^1.0.4",
     "axios": "^0.27.2",
     "next": "latest",
     "next-themes": "^0.2.0",
@@ -15,7 +16,8 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-icons": "^4.4.0",
-    "rough-notation": "^0.5.1"
+    "react-rough-notation": "^1.0.2",
+    "react-toastify": "^9.0.5"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
