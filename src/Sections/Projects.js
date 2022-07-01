@@ -8,8 +8,8 @@ export default function Projects() {
       <div className="container px-5 pb-24 mx-auto">
         <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div>
         <div className="overflow-x-hidden w-9/12 font-sans font-bold ">
-          <h2 className="text-3xl font-bold mb-4 ">
-            <RoughNotation type="highlight" show={true} color="#FFC83D">
+          <h2 className="text-4xl font-bold mb-4 ">
+            <RoughNotation animationDuration={1000} type="highlight" show={true} color="#FFC83D">
               {projects.title}
             </RoughNotation>
           </h2>

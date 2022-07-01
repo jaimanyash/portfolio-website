@@ -13,8 +13,8 @@ const Hero = () => {
               <FaCode className="w-full h-full hover:text-cyan-400  " />
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h1 className="text-5xl mb-6 text-gray-100  ">
-                <RoughNotation type="highlight" show={true} color="#22D3EE">
+              <h1 className="text-5xl mb-6 text-gray-100 font-sans  ">
+                <RoughNotation animationDuration={1000} strokeWidth="5" type="highlight" show={true} color="#22D3EE">
                   Hello, I'm <b>Yash 👋</b>
                 </RoughNotation>
               </h1>
@@ -22,18 +22,29 @@ const Hero = () => {
                 I'm a student, developer and most importantly,&nbsp;
               </p>
               <p className=" text-base text-left text-gray-600 dark:text-gray-200">
-                <RoughNotation type="box" show={true} color="#FFC83D">
+                <RoughNotation animationDuration={1000} type="circle" show={true} color="#FFC83D">
                   <b>a learner 📚 </b>
                 </RoughNotation>
               </p>
               <br />
               <h2 className=" text-base text-left text-gray-500 dark:text-gray-200">
                 Currently developing sites using
-                <RoughNotation type="circle" show={true} color="#F06988">
+                <RoughNotation padding={2} animationDuration={1000} type="underline" show={true} color="#4B5563">
                   <b> React </b>
                 </RoughNotation>
-                and learning new technologies in my free time. New to NextJS,
-                TailwindCSS and Figma✏️
+                and learning new technologies in my free time. New to
+                <RoughNotation padding={2} animationDuration={1000} type="underline" show={true} color="#4B5563">
+                  <b> NextJS,  </b>
+                </RoughNotation>
+                &nbsp;
+                <RoughNotation padding={2} animationDuration={1000} type="underline" show={true} color="#4B5563">
+                  <b>  TailwindCSS, </b>
+                </RoughNotation>
+                and 
+                <RoughNotation padding={2} animationDuration={1000} type="underline" show={true} color="#4B5563">
+                  <b>  Figma✏️ </b>
+                </RoughNotation>
+               
               </h2>
               <br />
               <p className=" text-base text-left text-gray-500 dark:text-gray-200">
@@ -41,9 +52,11 @@ const Hero = () => {
                 about shipping great products, becoming a better developer and
                 growing a career in tech🚀
               </p>
-              <div className="py-8 leading-3">
-                <h1 className="font-medium  text-gray-700 dark:text-gray-100 text-xl  mb-2">
-                  My Stack 👨‍💻
+              <div className="py-8 leading-5">
+                <h1 className="font-medium text-2xl text-gray-100 mb-2">
+                <RoughNotation animationDuration={1000} type="highlight" show={true} color="#E3606D">
+                <b>My Stack 👨‍💻</b>
+                </RoughNotation>
                 </h1>
                 <br />
                 <div className="  text-base inline-block mr-2">
@@ -58,7 +71,7 @@ const Hero = () => {
                     <p className=" pl-2">CSS3</p>
                   </div>
                 </div>
-                <div className="   text-base inline-block mr-2">
+                <div className=" mb-4  text-base inline-block mr-2">
                   <div className="flex  pr-2 h-full items-center">
                     <SiJavascript className="w-8 h-8 dark:text-gray-200 hover:text-yellow-500 dark:hover:text-yellow-500" />
                     <p className="pl-2">JavaScript</p>

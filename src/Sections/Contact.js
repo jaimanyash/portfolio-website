@@ -7,12 +7,12 @@ export default function Stack() {
     <section id="contact">
       <div className="container px-5 pb-16 mx-auto">
         <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div>
-        <div className="font-sans overflow-x-hidden w-full font-bold text-3xl">
-          <h2 className="max-w-max mx-0 text-left relative mb-4 md:w-max ">
-            <RoughNotation type="highlight" show={true} color="#FFC83D">
+        <div className="font-sans overflow-x-hidden w-full font-bold text-4xl">
+          <h1 className="max-w-max mx-0 text-left mb-4 md:w-max ">
+            <RoughNotation animationDuration={1000} type="highlight" show={true} color="#FFC83D">
               {contact.title}
             </RoughNotation>
-          </h2>
+          </h1>
         </div>
         <p>
           Shoot me an email:{" "}
@@ -20,7 +20,7 @@ export default function Stack() {
             className="font-sans font-medium dark:text-white transition-colors duration-500"
             href={`mailto:${contact.email}`}
           >
-            <RoughNotation type="underline" show={true} color="#50E3C2">
+            <RoughNotation animationDuration={1000} type="underline" show={true} color="#50E3C2">
               {contact.email}
             </RoughNotation>
           </a>
