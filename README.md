@@ -1,6 +1,8 @@
-# Next.js + Tailwind CSS Example
+# Built with Next.js + Tailwind CSS 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Boilerplate website for Developers to showcase their resume and
+portfolio.
+Developed using NextJs, TailwindCSS with Dark Mode support.
 
 ## Deploy your own
 
@@ -10,14 +12,33 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Installation
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+
+git clone https://github.com/manuarora700/portfolio-website.git
+
+cd portfolio-website
+
+yarn
+
+yarn dev
+
+```
+
+or use NPM
+
+```bash
+
+git clone https://github.com/manuarora700/portfolio-website.git
+
+cd portfolio-website
+
+npm install
+
+npm run dev
+
+```
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
